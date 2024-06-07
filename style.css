@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* .gallery-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+    margin: 0 auto;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+} */
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 768px) {
+    .image-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .image-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto; /* Add margin for better centering */
+  }
+
+  .gallery {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   
+  }
+
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    background-color: blue; /* Solid blue background for the board */
+    padding: 1px; /* Add some padding between image and board edge */
+    cursor: default; /* Set default cursor */
+    width: 25%;
+    object-fit: cover;
+
+  }
+
+  .gallery-item img {
+     width: 100%;
+    height: auto;
+   transition: transform 0.3s ease; /* Add smooth hover transition */
+
+  }
+
+  .gallery-item:hover {
+    cursor: pointer; /* Change cursor to hand on hover */
+  }
+
+  .gallery-item:hover img {
+    transform: scale(1.1); /* Zoom image on hover */
+  }
+
+  
