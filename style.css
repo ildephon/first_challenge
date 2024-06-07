@@ -30,8 +30,7 @@
     .desc{
         bottom: 0;
         left: 0;
-        position: absolute;
-        display: flex;
+        position: absolute; 
         flex-direction: column;
     }
     h1{
@@ -39,12 +38,14 @@
             font-size: 30px;
             font-weight: bold;
             margin: 10px;
+            text-align: center;
         
         }
         p{
             font-size: 20px;
             color:  #e6e6e6;
             margin: 20px;
+            text-align: center;
         }
         @media screen and (max-width: 480px) {
             h1{
