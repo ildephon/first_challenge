@@ -8,7 +8,7 @@ THE file that describe the instruction of how you can use my code. This file is 
 
 `git clone https://github.com/ildephon/first_challenge.git`
 
-`cd  first_challenge`
+`cd  challenge`
 
 #### UI Challenge: Interactive Photo Gallery
 
